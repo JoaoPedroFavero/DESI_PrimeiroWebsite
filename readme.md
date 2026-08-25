@@ -21,10 +21,10 @@ frontend/
 
 ---
 
-![Home #1](assets/HOME%201.png)
+![Home #1](frontend/assets/HOME%201.png)
 
-![Home #2](assets/HOME%202.png)
+![Home #2](frontend/assets/HOME%202.png)
 
-![Formulario](assets/FORM.png)
+![Formulario](frontend/assets/FORM.png)
 
-![Template Produto](assets/PRODUTO%20TEMPLATE.png)
+![Template Produto](frontend/assets/PRODUTO%20TEMPLATE.png)
