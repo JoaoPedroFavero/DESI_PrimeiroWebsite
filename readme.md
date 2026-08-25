@@ -16,15 +16,15 @@ Um projeto web simples desenvolvido com HTML, CSS e JavaScript.
 frontend/
   ├── pages/     - HTML das páginas
   ├── script/    - JavaScript
-  └── assets/    - Imagens e recursos
+  └── assets/    - Imagens
 ```
 
----
+## Imagens
 
 ![Home #1](frontend/assets/HOME%201.png)
 
 ![Home #2](frontend/assets/HOME%202.png)
 
-![Formulario](frontend/assets/FORM.png)
+![Formulário](frontend/assets/FORM.png)
 
 ![Template Produto](frontend/assets/PRODUTO%20TEMPLATE.png)
