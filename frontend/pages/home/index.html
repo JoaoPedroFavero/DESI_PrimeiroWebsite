@@ -6,58 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<!-- 
-Objetivo e desafio
-Chegou a hora de colocar tudo o que vimos até agora em prática: vocês vão criar o primeiro site completo de vocês, usando apenas HTML e CSS (ainda sem JavaScript). O desafio é criar um site de vendas — o tema é livre, desde que o site esteja vendendo algo, seja um produto, um serviço, ou até algo fictício e inventado por vocês. Vocês escolhem o produto, a paleta de cores, a tipografia e o estilo visual, sem restrições. A ideia é que vocês pratiquem estrutura semântica, layout com Flexbox e Grid, e construam uma identidade visual própria — do zero até um site que pareça de verdade.
-
- 
-Requisitos mínimos
-O site deve ter no mínimo 3 páginas:
-Uma página inicial (produtos); grid
-Uma página com mais informações, descrição, etc, do produto; landing page
-Uma página de contato, com um formulário.
-Header e footer devem ser iguais em todas as páginas (mesma navegação, mesmo rodapé);
-A navegação entre as páginas deve funcionar de verdade;
-Organização de arquivos (estrutura de pastas já ensinada em outras aulas (Ex.: fronted/pages/index.html).
- 
-Tags obrigatórias
-Estrutura semântica:
-
-<header>, <nav>, <main>, <footer>;
-<section> - para separar blocos de conteúdo;
-<h1> - respeitando hierarquia de títulos.
-Conteúdo e mídia:
-
-<img> com atributo alt preenchido corretamente;
-<a> com href relativo (navegação entre páginas);
-<ul> ou <ol> com <li>.
-Formulário (página de contato):
-
-<form>, <label>, <input> (variando o type), <textarea>, <button>
-Uso dos atributos required e placeholder
-Uso de <div> e <span>: permitido, mas use com critério — prefira uma tag semântica sempre que ela se encaixar.
-
- 
-Uso de Inteligência Artificial
-Liberado, desde que seja para aprender (tirar dúvida, entender um conceito, pedir sugestão) — não para simplesmente copiar e colar código pronto sem entender o que ele faz.
-
- 
-Dicas
-Para ajudar na parte visual, aqui vão duas ferramentas que podem ser úteis:
-
-Paleta de Cores — gerador de paletas de cores.
-Dribbble — galeria com exemplos de sites e telas feitos por designers. Vale usar para se inspirar em layout, cores e estilo, mas lembrem-se: inspirar-se é diferente de copiar.
--->
 
 <body>
     <header>
         <div class="Logo">LOGO</div>
 
         <nav>
-            <a href="/pages/form.html">Formulário</a>
+            <a href="../form/form.html">Formulário</a>
         </nav>
 
         <input type="text" placeholder="Pesquise aqui">
@@ -80,7 +37,7 @@ Dribbble — galeria com exemplos de sites e telas feitos por designers. Vale us
                 </div>
                 <div class="title-btn">
                     <h1>Star Wars: Darth Maul</h1>
-                    <button>VER MAIS</button>
+                    <button id="btn-produto-1">VER MAIS</button>
                 </div>
             </div>
 
@@ -90,7 +47,7 @@ Dribbble — galeria com exemplos de sites e telas feitos por designers. Vale us
                 </div>
                 <div class="title-btn">
                     <h1>Star Wars: Uma Nova Esperança</h1>
-                    <button>VER MAIS</button>
+                    <button id="btn-produto-2">VER MAIS</button>
                 </div>
             </div>
 
@@ -100,7 +57,7 @@ Dribbble — galeria com exemplos de sites e telas feitos por designers. Vale us
                 </div>
                 <div class="title-btn">
                     <h1>Star Wars: A Guerra nas Estrelas</h1>
-                    <button>VER MAIS</button>
+                    <button id="btn-produto-3">VER MAIS</button>
                 </div>
             </div>
 
@@ -110,7 +67,7 @@ Dribbble — galeria com exemplos de sites e telas feitos por designers. Vale us
                 </div>
                 <div class="title-btn">
                     <h1>Star Wars: Darth Vader</h1>
-                    <button>VER MAIS</button>
+                    <button id="btn-produto-4">VER MAIS</button>
                 </div>
             </div>
         </section>
@@ -119,7 +76,7 @@ Dribbble — galeria com exemplos de sites e telas feitos por designers. Vale us
     <footer>
         <p>Crédito ao Design <a href="https://dribbble.com/shots/26729768-Molfar-Bookstore-Hero-Section-Teaser" style="color: rgb(1, 155, 229); text-decoration: none;">Design de Vadim Coolin</a></p>
     </footer>
-
+    <script src="../../script/script.js"></script>
 </body>
 
 </html>
