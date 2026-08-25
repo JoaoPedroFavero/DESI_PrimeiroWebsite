@@ -21,10 +21,10 @@ frontend/
 
 ---
 
-![Home #1](../DESI_PrimeiroWebsite/frontend/assets/HOME%201.png)
+![Home #1](assets/HOME%201.png)
 
-![Home #2](../DESI_PrimeiroWebsite/frontend/assets/HOME%202.png)
+![Home #2](assets/HOME%202.png)
 
-![Formulario](../DESI_PrimeiroWebsite/frontend/assets/FORM.png)
+![Formulario](assets/FORM.png)
 
-![Template Produto](../DESI_PrimeiroWebsite/frontend/assets/PRODUTO%20TEMPLATE.png)
+![Template Produto](assets/PRODUTO%20TEMPLATE.png)
