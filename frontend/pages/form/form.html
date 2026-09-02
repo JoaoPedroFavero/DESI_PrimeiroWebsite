@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=check" />
     <link rel="stylesheet" href="style.css">
+    <script src="../../script/scriptForm.js" defer></script>
 </head>
 
 <body>
@@ -19,19 +22,22 @@
         <input type="text" placeholder="Pesquise aqui">
     </header>
 
-    <main>
+    <div id="feedback-container" style="display: none;">
+        <p id="feedback-form"><span class="material-symbols-outlined">check</span>Enviado com Sucesso!</p>
+    </div>
 
+    <main>
         <div class="formulario-container">
-            <form class="formulario">
+            <form id="formulario" class="formulario">
                 <div class="inputs-formulario">
                     <div class="input">
                         <label for="Nome">Nome Completo</label>
-                        <input id="Nome" type="text" placeholder="Seu nome aqui...">
+                        <input id="Nome" type="text" placeholder="Seu nome aqui..." required>
                     </div>
 
                     <div class="input">
                         <label for="Email">Email</label>
-                        <input id="Email" type="email" placeholder="Seu email aqui...">
+                        <input id="Email" type="email" placeholder="Seu email aqui..." required>
                     </div>
                 </div>
 

@@ -77,7 +77,10 @@ input {
     height: 90%;
     display: flex;
     flex-direction: column;
+}
 
+.preco{
+    font-weight: bold;
 }
 
 .botao {

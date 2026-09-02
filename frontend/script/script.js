@@ -1,5 +1,7 @@
 `use strict`;
 
+// BOTÕES DOS PRODUTOS 
+
 const btnProduto1 = document.getElementById(`btn-produto-1`);
 btnProduto1.addEventListener(`click`, function(){
     window.location.href = `../produto1/produto.html`

@@ -2,6 +2,9 @@ body {
     font-family: "Outfit", sans-serif;
     margin: 20px;
     background-color: rgb(241, 241, 232);
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* HEADER */
@@ -121,6 +124,40 @@ header input {
     }
 }
 
+.feedback-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.feedback-form{
+    z-index: 1000;
+    position: absolute;
+    animation-name: entrada;
+    animation-duration: 2s;
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 155, 229);
+    color: rgb(0, 59, 87);
+    padding: 10px;
+    width: 200px;
+    margin: 25px;
+
+    span{
+        margin: 2px;
+        color: rgb(0, 59, 87);
+    }
+}
+
+@keyframes entrada{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+
+}
 
 /* FOOTER */
 footer {
