@@ -1,7 +1,9 @@
+@import url('../../variaveisCSS/variaveis.css');
+
 body {
     font-family: "Outfit", sans-serif;
     margin: 20px;
-    background-color: rgb(241, 241, 232);
+    background-color: var(--background-padrão);
 }
 
 /* HEADER */
@@ -11,14 +13,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid rgb(53, 53, 53);
+    border: 2px solid var(--cinza-padrão);
     height: 50px;
 }
 
 .Logo {
-    color: rgb(1, 155, 229);
+    color: var(--azul-padrão);
     font-weight: bold;
-    border-right: 2px solid rgb(53, 53, 53);
+    border-right: 2px solid var(--cinza-padrão);
     height: 100%;
     width: 20%;
     display: flex;
@@ -27,12 +29,12 @@ header {
 }
 
 a {
-    color: rgb(53, 53, 53);
+    color: var(--cinza-padrão);
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
-        color: rgb(1, 155, 229);
+        color: var(--azul-padrão);
     }
 }
 
@@ -43,7 +45,7 @@ input {
     border: none;
     outline: none;
     padding-left: 10px;
-    box-shadow: 0 0 5px rgb(1, 155, 229);
+    box-shadow: 0 0 5px var(--azul-padrão);
 }
 
 /* PAGINA */
@@ -56,13 +58,13 @@ input {
 }
 
 .imagem {
-    background-color: white;
+    background-color: var(--branco);
     width: 35%;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 3px rgba(53, 53, 53, 0.267);
+    box-shadow: 0 0 3px var(--cinza-sombra);
     border-radius: 15px;
 }
 
@@ -90,8 +92,8 @@ input {
 }
 
 .botao button {
-    background-color: rgb(1, 155, 229);
-    color: rgb(241, 241, 232);
+    background-color: var(--azul-padrão);
+    color: var(--background-padrão);
     border: none;
     cursor: pointer;
     width: 100%;
@@ -100,9 +102,9 @@ input {
     font-weight: bold;
 
     &:hover {
-        background-color: rgb(241, 241, 232);
-        color: rgb(1, 155, 229);
-        border: 2px solid rgb(1, 155, 229);
+        background-color: var(--background-padrão);
+        color: var(--azul-padrão);
+        border: 2px solid var(--azul-padrão);
     }
 }
 
@@ -114,6 +116,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid rgb(53, 53, 53);
+    border: 2px solid var(--cinza-padrão);
     height: 50px;
 }

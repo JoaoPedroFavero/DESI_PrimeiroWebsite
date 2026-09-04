@@ -1,0 +1,51 @@
+@import url('/frontend/variaveisCSS/variaveis.css');
+
+.dark-theme{
+    background-color: var(--background-escuro);
+    color: var(--background-padrão);
+
+    header{
+        border: 2px solid var(--background-padrão);
+    }
+
+    .Logo{
+        border-right: 2px solid var(--background-padrão);
+    }
+
+    a{
+        color: var(--background-padrão);
+        text-decoration: none;
+        cursor: pointer;
+        &:hover{
+            color: var(--azul-padrão);
+        }
+    }
+
+    .banner, .bestsellers{
+        border: 2px solid var(--background-padrão);
+    }
+
+    .bestsellers h1{
+        color: var(--background-padrão)
+    }
+
+    .produto-1,
+    .produto-2,
+    .produto-3,
+    .produto-4 {
+        border: 2px solid var(--background-padrão);
+    }
+
+    footer{
+        border: 2px solid var(--background-padrão);
+    }
+
+    .theme-button{
+        background-color: transparent;
+        color: var(--background-padrão);
+        &:hover{
+            border-radius: 360px;
+            background-color: rgba(255, 255, 255, 0.342);
+        }
+    }
+}
